@@ -1,0 +1,126 @@
+
+body{
+    padding: 0px;
+    padding-top: 20px;
+   font-family: Orbitron;
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-container .list {
+    display: flex;
+    list-style-type: none;
+}
+.navbar-container .button-group{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.navbar-container .list .list-item{
+    display: flex;
+    justify-content: space-between;
+   font-size: 20px;
+   font-weight: 450;
+   cursor: pointer;
+   margin-right: 50px;
+
+}
+.navbar-container .button-group .search-icon  {
+margin-right: 6px;
+}
+.navbar-container .button-group .nav-button {
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    cursor:pointer;
+    padding-top: 6px;
+    background-color: #ffffff;
+    
+}
+.list-item:nth-child(1){
+    text-decoration: underline;
+    font-weight: 1200;
+}
+ .hero-container .star {
+    position: relative;
+    left: 930px;
+    bottom: 330px;
+} 
+.hero-container .square {
+    position: relative;
+    left: 150px;
+    top: 190px;
+}
+.hero-container .globe{
+    position:absolute;
+    left: 820px;
+    top: 80px;
+    height: 40px;
+}
+ .hero-container .globe + div > img {
+position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 100px;
+    top: 130px;
+    
+}
+.hero-container-right {
+  width: 900px;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 600px;
+
+}
+.hero-container-right .hero-heading{
+    font-size: 50px;
+    margin-top: -300px;
+}
+.hero-container-right .hero-description{
+    max-width: 650px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.hero-container-right div{
+    margin-top: 60px;
+}
+.hero-container-right .button-email{
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-container-right .button-join{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-container-right div> .contact-heading{
+    margin-bottom: -50px;
+    margin-top:60px ;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#7c717197 ;
+}
+
+.hero-container-right  .icons  span> img{
+ width: 30px;
+}
+.hero-container-right  .icons  span{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.hero-container .star1{
+position: absolute;
+  margin-left: 250px;
+  margin-top: 550px;
+
+
+}
